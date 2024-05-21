@@ -3,7 +3,7 @@
 
 Online Retailer Machine Learning Model
 - Our objective is to create a predictive model to forecast items commonly purchased together and frequency of items being purchased.
-- We will use Python, Pandas and Tableau to prepare the data for analysis and visualizations.
+- We will use Python, MatPlotlib, PySpark, Pandas and Tableau to prepare the data for analysis and visualizations.
 
 
 Dataset: https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset
