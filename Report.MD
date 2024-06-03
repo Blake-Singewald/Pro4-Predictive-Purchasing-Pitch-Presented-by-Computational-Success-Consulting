@@ -28,6 +28,7 @@ The project followed a structured approach, which included the following steps:
 ![RFM Comparison](/images/ComparisonofRFM.png)
 4. **Model Development**: Various machine learning algorithms from sklearn and TensorFlow were evaluated, including the K-Nearest Neighbor (KNN) Classification algorithm. The `KNN model` was trained to classify customers into `"Low Value" (0)` and `"Mid to High Value" (1)` segments based on their purchasing behavior and other relevant features.
 5. **Model Evaluation**: The `KNN model` achieved an overall accuracy of `86.63%` in classifying customers into the `"Low Value"` and `"Mid to High Value"` segments.
+![KNN Model](/images/knn_cm.png)
 6. **Data Visualization**: Matplotlib was used to create interactive visualizations, providing insights into customer behavior and purchasing patterns.
 
 ## Key Findings
@@ -47,7 +48,7 @@ Based on the findings, CSC recommends the following actions for Pro4:
 2. **Leverage Data Visualizations**: Utilize the interactive visualizations created with Matplotlib and Tableau to gain insights into customer behavior, identify opportunities for targeted marketing campaigns, and optimize product offerings.
 3. **Continuous Model Improvement**: Regularly update the model with new customer data to ensure accurate and up-to-date predictions, and explore opportunities for further model enhancements using the latest techniques and libraries.
 4. **Targeted Marketing Strategies**: Develop targeted marketing strategies for each customer segment identified through the RFM analysis, focusing on retaining valuable customers and re-engaging inactive or at-risk customers.
-
+![RFM AT RISK](/images/CustomerSegmentbyValue.png)
 ## Conclusion
 
 The predictive purchasing model, customer segmentation analysis, and data visualizations developed by CSC provide Pro4 with valuable insights and tools to enhance customer experience, increase sales, and drive business growth. By leveraging these solutions, Pro4 can stay ahead of the competition and deliver a personalized and engaging shopping experience to its customers.
