@@ -25,7 +25,7 @@ The project followed a structured approach, which included the following steps:
 1. **Data Preparation**: The customer segmentation dataset from Kaggle was cleaned, preprocessed, and transformed into a suitable format for analysis using Python, Pandas, and scikit-learn (sklearn).
 2. **Exploratory Data Analysis (EDA)**: Pandas and Matplotlib were used to perform EDA, identifying patterns, trends, and potential correlations within the data.
 3. **Customer Segmentation**: Customers were segmented using the RFM (Recency, Frequency, Monetary Value) analysis method, a data-driven approach that helps businesses segment customers and predict their future behavior. This analysis resulted in the identification of segments such as "At Risk," "Average," "Champions," "Gone Customers," and "Loyal Customers."
-![RFM Comparison](/images/ComparisonsofRFM.png)
+![RFM Comparison](/images/ComparisonofRFM.png)
 4. **Model Development**: Various machine learning algorithms from sklearn and TensorFlow were evaluated, including the K-Nearest Neighbor (KNN) Classification algorithm. The `KNN model` was trained to classify customers into `"Low Value" (0)` and `"Mid to High Value" (1)` segments based on their purchasing behavior and other relevant features.
 5. **Model Evaluation**: The `KNN model` achieved an overall accuracy of `86.63%` in classifying customers into the `"Low Value"` and `"Mid to High Value"` segments.
 6. **Data Visualization**: Matplotlib was used to create interactive visualizations, providing insights into customer behavior and purchasing patterns.
